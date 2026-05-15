@@ -1,115 +1,111 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
-}
-
-@book{einstein1956investigations,
+@inproceedings{proskurin2018hiding,
   bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+  abbr        = {ACSAC},
+  title       = {Hiding in the Shadows: Empowering ARM for Stealthy Virtual Machine Introspection},
+  author      = {Proskurin, Sergej and Lengyel, Tamas and Momeu, Marius and Eckert, Claudia and Zarras, Apostolis},
+  booktitle   = {ACM Annual Computer Security Applications Conference (ACSAC)},
+  pages       = {407--417},
+  year        = {2018},
+  month       = {December},
+  html        = {https://dl.acm.org/doi/abs/10.1145/3274694.3274698},
+  code        = {https://github.com/drakvuf-on-arm/drakvuf-on-arm}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
+@inproceedings{proskurin2020xmp,
+  bibtex_show  = {true},
+  selected     = {true},
+  abbr         = {S&P},
+  title        = {xMP: Selective Memory Protection for Kernel and User Space},
+  author       = {Proskurin, Sergej and Momeu, Marius and Ghavamnia, Seyedhamed and Kemerlis, Vasileios P. and Polychronakis, Michalis},
+  booktitle    = {IEEE Symposium on Security and Privacy (S&P)},
+  pages        = {563--577},
+  year         = {2020},
+  month        = {May},
+  organization = {IEEE},
+  html         = {https://ieeexplore.ieee.org/abstract/document/9152671},
+  code         = {https://github.com/virtsec/xmp}
+}
+
+@article{roascio2022harmonics,
   bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+  abbr        = {IEEE Access},
+  title       = {HArMoNICS: High-Assurance Microgrid Network Infrastructure Case Study},
+  author      = {Roascio, Gianluca and Costa, Gabriele and Baccelli, Emmanuel and Malina, Lukas and Matulevi{\v{c}}ius, Raimundas and Momeu, Marius and Morkevi{\v{c}}ius, Nerijus and Russo, Enrico and Stojanovi{\'c}, Branka and Tasidou, Aimilia},
+  journal     = {IEEE Access},
+  volume      = {10},
+  pages       = {115372--115383},
+  year        = {2022},
+  publisher   = {IEEE},
+  html        = {https://ieeexplore.ieee.org/abstract/document/9933432}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
+@inproceedings{momeu2024safeslab,
   bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+  selected    = {true},
+  abbr        = {CCS},
+  title       = {Safeslab: Mitigating Use-After-Free Vulnerabilities via Memory Protection Keys},
+  author      = {Momeu, Marius and Schn{\"u}ckel, Simon and Angnis, Kai and Polychronakis, Michalis and Kemerlis, Vasileios P.},
+  booktitle   = {ACM SIGSAC Conference on Computer and Communications Security (CCS)},
+  pages       = {1345--1359},
+  year        = {2024},
+  month       = {October},
+  html        = {https://dl.acm.org/doi/abs/10.1145/3658644.3670279},
+  code        = {https://github.com/marius-momeu/safeslab}
 }
 
-@book{przibram1967letters,
+@inproceedings{momeu2024islab,
   bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+  selected    = {true},
+  abbr        = {ASIACCS},
+  title       = {ISLAB: Immutable Memory Management Metadata for Commodity Operating System Kernels},
+  author      = {Momeu, Marius and Kilger, Fabian and Roemheld, Christopher and Schn{\"u}ckel, Simon and Proskurin, Sergej and Polychronakis, Michalis and Kemerlis, Vasileios P.},
+  booktitle   = {ACM Asia Conference on Computer and Communications Security (ASIACCS)},
+  pages       = {1159--1172},
+  year        = {2024},
+  month       = {July},
+  html        = {https://dl.acm.org/doi/abs/10.1145/3634737.3644994},
+  code        = {https://github.com/marius-momeu/islab}
+}
+
+@inproceedings{momeu2025iubik,
+  bibtex_show  = {true},
+  selected     = {true},
+  abbr         = {S&P},
+  title        = {IUBIK: Isolating User Bytes in Commodity Operating System Kernels via Memory Tagging Extensions},
+  author       = {Momeu, Marius and Gaidis, Alexander J. and vd Heidt, Jasper and Kemerlis, Vasileios P.},
+  booktitle    = {IEEE Symposium on Security and Privacy (S&P)},
+  pages        = {867--885},
+  year         = {2025},
+  month        = {May},
+  organization = {IEEE},
+  html         = {https://ieeexplore.ieee.org/abstract/document/11023322},
+  code         = {https://github.com/marius-momeu/iubik}
+}
+
+@inproceedings{andreas2026hypermirage,
+  bibtex_show = {true},
+  selected    = {true},
+  abbr        = {NDSS},
+  title       = {HyperMirage: Direct State Manipulation in Hybrid Virtual CPU Fuzzing},
+  author      = {Andreas, Manuel and Specht, Fabian and Momeu, Marius},
+  booktitle   = {Network and Distributed System Security Symposium (NDSS)},
+  year        = {2026},
+  month       = {February},
+  html        = {https://www.ndss-symposium.org/ndss-paper/hypermirage-direct-state-manipulation-in-hybrid-virtual-cpu-fuzzing/},
+  code        = {https://github.com/tum-itsec/hypermirage}
+}
+
+@phdthesis{dissertation,
+  bibtex_show = {true},
+  abbr        = {Thesis},
+  author      = {Momeu, Marius},
+  title       = {Retrofitting Operating System Security via Commodity Hardware Extensions},
+  school      = {Technische Universität München},
+  year        = {2026},
+  pages       = {151},
+  abstract    = {This thesis proposes hardening schemes that mitigate memory-safety errors in operating systems efficiently. We leverage recent hardware primitives for fine-grained memory isolation to design compartmentalization and heap hardening frameworks that thwart dangling pointers, type confusion, and arbitrary R/W, which are key exploitation capabilities. We evaluate our techniques on the Linux kernel. Lastly, we improve fuzzing for finding critical vulnerabilities in hypervisors.},
+  pdf         = {https://mediatum.ub.tum.de/doc/1834845/1834845.pdf},
 }

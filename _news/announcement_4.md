@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Successfully defended my PhD [thesis](https://mediatum.ub.tum.de/doc/1834845/1834845.pdf) *summa cum laude* at TU Munich. :mortar_board:
+Successfully defended my PhD [thesis](https://mediatum.ub.tum.de/doc/1834845/1834845.pdf) _summa cum laude_ at TU Munich. :mortar_board:

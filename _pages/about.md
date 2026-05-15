@@ -28,24 +28,26 @@ latest_posts:
 I am a postdoc researcher in the [Sky Computing
 Lab](https://sky.cs.berkeley.edu/people/) at UC Berkeley, in [Koushik
 Sen's](https://people.eecs.berkeley.edu/~ksen/?rnd=1778808524440) group. I
-completed my PhD *summa cum laude* at TU Munich in the [Chair of IT
+completed my PhD _summa cum laude_ at TU Munich in the [Chair of IT
 Security](https://www.sec.in.tum.de/i20/people) under the supervision of
 [Claudia
-Eckert](https://en.wikipedia.org/wiki/Claudia_Eckert_(computer_scientist)). I
+Eckert](<https://en.wikipedia.org/wiki/Claudia_Eckert_(computer_scientist)>). I
 was also affiliated with Brown University, where I worked closely with
 [Vasileios P. Kemerlis's](https://cs.brown.edu/people/vpk/) group.
 
 My research goal is to make systems software reliable and secure by preventing
-and detecting programming mistakes. I am currently building AI frameworks that
-orchestrate swarms of agents to tackle hard problems in software engineering in an
-efficient and scalable manner:
-- Translating large C codebases to Rust (DARPA's TRACTOR program)
-- Discovering and remediating software vulnerabilities 
-- Increasing testing and fuzzing coverage
+and detecting flaws that may be introduced during development. I am currently
+building multi-agent AI frameworks that orchestrate swarms of agents to tackle
+hard problems in software engineering at scale:
+
+- [Crustify](https://dev.to/mariusmomeu/i-spent-174-transpiling-12-open-source-c-projects-28k-lines-to-rust-heres-what-happened-3g9i): Porting C codebases to Rust ([DARPA's TRACTOR program](https://www.darpa.mil/research/programs/translating-all-c-to-rust))
+- **Ryno**: Discovering and remediating vulnerabilities in software
+- AI semantic reasoning to enhance testing and fuzzing coverage
 
 Previously, I worked on hardware-assisted software hardening and fuzzing, developing the following tools:
-- [**HyperMirage**](https://www.ndss-symposium.org/ndss-paper/hypermirage-direct-state-manipulation-in-hybrid-virtual-cpu-fuzzing/) — direct state manipulation for hybrid virtual-CPU fuzzing of hypervisors
-- [**IUBIK**](https://ieeexplore.ieee.org/abstract/document/11023322) — isolating user bytes in commodity OS kernels via ARM MTE
-- [**SafeSlab**](https://dl.acm.org/doi/abs/10.1145/3658644.3670279) — mitigating use-after-free vulnerabilities with Intel MPK
-- [**ISLAB**](https://dl.acm.org/doi/abs/10.1145/3634737.3644994) — protecting security-critical memory management metadata via Intel SMAP
-- [**xMP**](https://ieeexplore.ieee.org/abstract/document/9152671) — selective memory protection for kernel and user space via Intel EPT
+
+- [HyperMirage](https://www.ndss-symposium.org/ndss-paper/hypermirage-direct-state-manipulation-in-hybrid-virtual-cpu-fuzzing/) — direct state manipulation for hybrid virtual-CPU fuzzing of hypervisors
+- [IUBIK](https://ieeexplore.ieee.org/abstract/document/11023322) — isolating user bytes in commodity OS kernels via ARM MTE
+- [SafeSlab](https://dl.acm.org/doi/abs/10.1145/3658644.3670279) — mitigating use-after-free vulnerabilities with Intel MPK
+- [ISLAB](https://dl.acm.org/doi/abs/10.1145/3634737.3644994) — protecting security-critical memory management metadata via Intel SMAP
+- [xMP](https://ieeexplore.ieee.org/abstract/document/9152671) — selective memory protection for kernel and user space via Intel EPT
